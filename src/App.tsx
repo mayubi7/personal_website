@@ -5,7 +5,7 @@ import {AboutMe} from "./sections/AboutMe";
 
 function App() {
   return (
-    <div className={"lg:px-52 md:px-10"}>
+    <div className={"px-52"}>
         <Home />
         <AboutMe />
       <div className={"bg-blue-500 h-screen"}>
