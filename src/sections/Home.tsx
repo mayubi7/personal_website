@@ -14,7 +14,7 @@ export function Home() {
                     <img src={githubLogo} alt={"github logo"} onClick={()=>{window.open("https://github.com/mayubi7")}}/>
                 </div>
             </div>
-            <div className={"w-1/3"}>
+            <div className={"w-5/12"}>
                 <img src={coding} alt={"female coding"}/>
             </div>
         </div>
