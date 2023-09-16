@@ -1,5 +1,22 @@
 import React from "react";
 import computer from "../images/computer.png";
+import {Button, styled} from "@mui/material";
+import {CallMade} from "@mui/icons-material";
+
+const CustomizedButton = styled(Button)({
+    textTransform: 'capitalize',
+    backgroundColor: '#5271FF',
+    color: 'white',
+    borderRadius: '50px',
+    width: '150px',
+    height: '60px',
+    fontSize: '20px',
+    '&:hover': {
+        color: '#5271FF',
+        borderColor: '#5271FF',
+        backgroundColor: '#edeefc',
+    },
+}) as typeof Button;
 
 export function AboutMe() {
     return (
@@ -8,13 +25,18 @@ export function AboutMe() {
             <div className={"flex flex-col items-start text-left max-w-[1100px] gap-y-10"}>
                 <span className={"font-bold text-[#5271FF] text-6xl"}>Passionate about life-long learning, I'm continuously searching for new problems to solve.</span>
                 <span className={"text-3xl"}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                    qui officia deserunt mollit anim id est laborum.
+                    I'm a fourth-year Computer Science student at the University of British Columbia 👩🏻‍💻.
+                    Whether it's web applications that help organizations ensure pay equality among their employees
+                    or one that helps university students easily discover mental health services,
+                    I enjoy using my technical skills to create positive impact. In my free time, I'm usually reading
+                    to acquire new skills 📚 or practicing photography 📸.
                 </span>
+                <CustomizedButton
+                    variant="outlined"
+                    size="large"
+                    endIcon={<CallMade />}>
+                    Resume
+                </CustomizedButton>
             </div>
         </div>
     )
