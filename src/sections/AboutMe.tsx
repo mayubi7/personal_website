@@ -2,6 +2,7 @@ import React from "react";
 import computer from "../images/computer.png";
 import {Button, styled} from "@mui/material";
 import {CallMade} from "@mui/icons-material";
+import resume from "../images/Mariam_Ayubi_Resume.pdf";
 
 const CustomizedButton = styled(Button)({
     textTransform: 'capitalize',
@@ -31,12 +32,14 @@ export function AboutMe() {
                     I enjoy using my technical skills to create positive impact. In my free time, I'm usually reading
                     to acquire new skills 📚 or practicing photography 📸.
                 </span>
-                <CustomizedButton
-                    variant="outlined"
-                    size="large"
-                    endIcon={<CallMade />}>
-                    Resume
-                </CustomizedButton>
+                <a href={resume} target={"_blank"} rel="noreferrer">
+                    <CustomizedButton
+                        variant="outlined"
+                        size="large"
+                        endIcon={<CallMade />}>
+                        Resume
+                    </CustomizedButton>
+                </a>
             </div>
         </div>
     )
