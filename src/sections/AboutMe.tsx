@@ -9,9 +9,7 @@ const CustomizedButton = styled(Button)({
     backgroundColor: '#5271FF',
     color: 'white',
     borderRadius: '50px',
-    width: '150px',
-    height: '60px',
-    fontSize: '20px',
+    fontSize: '16px',
     '&:hover': {
         color: '#5271FF',
         borderColor: '#5271FF',
@@ -22,10 +20,10 @@ const CustomizedButton = styled(Button)({
 export function AboutMe() {
     return (
         <div className={"flex items-center justify-between h-screen"}>
-            <div className={"w-[500px]"}><img src={computer} alt={"computer"}/></div>
-            <div className={"flex flex-col items-start text-left max-w-[1100px] gap-y-10"}>
-                <span className={"font-bold text-[#5271FF] text-6xl"}>Passionate about life-long learning, I'm continuously searching for new problems to solve.</span>
-                <span className={"text-3xl"}>
+            <div className={"w-[400px]"}><img src={computer} alt={"computer"}/></div>
+            <div className={"flex flex-col items-start text-left max-w-[750px] gap-y-10"}>
+                <span className={"font-bold text-[#5271FF] text-4xl"}>Passionate about life-long learning, I'm continuously searching for new problems to solve.</span>
+                <span className={"text-2xl"}>
                     I'm a fourth-year Computer Science student at the University of British Columbia 👩🏻‍💻.
                     Whether it's web applications that help organizations ensure pay equality among their employees
                     or one that helps university students easily discover mental health services,
