@@ -1,21 +1,8 @@
 import React from "react";
-import computer from "../images/computer.png";
-import {Button, styled} from "@mui/material";
+import computer from "../media/computer.png";
 import {CallMade} from "@mui/icons-material";
-import resume from "../images/Mariam_Ayubi_Resume.pdf";
-
-const CustomizedButton = styled(Button)({
-    textTransform: 'capitalize',
-    backgroundColor: '#5271FF',
-    color: 'white',
-    borderRadius: '50px',
-    fontSize: '16px',
-    '&:hover': {
-        color: '#5271FF',
-        borderColor: '#5271FF',
-        backgroundColor: '#edeefc',
-    },
-}) as typeof Button;
+import resume from "../media/Mariam_Ayubi_Resume.pdf";
+import {CustomizedButton} from "../components/CustomizedButton"
 
 export function AboutMe() {
     return (
