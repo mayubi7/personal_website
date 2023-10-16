@@ -1,21 +1,21 @@
 import React from "react";
 import focusKeeper from "../media/focus-keeper.png"
 import bringItUp from "../media/bring-it-up.png"
-import silverGym from "../media/Silver-gym.png"
+import silverGym from "../media/silver-gym.png"
 import insightUBC from "../media/insight-ubc.png"
 import {ProjectCard} from "../components/ProjectCard"
 
 export function Projects() {
     return (
-        <div className={"flex flex-col h-screen justify-center"}>
+        <div id={"projects"} className={"flex flex-col h-screen justify-center"}>
             <h2 className={"text-4xl font-bold"}>Selected Projects</h2>
             <div className={"flex h-[500px] gap-x-5 items-center"}>
                 <ProjectCard
                     styles={"bg-[#7451cb]"}
                     headerText={"Bring It Up"}
                     projectDescription={"In a group of 15, we built a web application that helps university students " +
-                            "find mental health services that best suits their needs. As a front-end developer " +
-                            "on the team, I built UI components using TypeScript, React and Material UI."}
+                            "find mental health services that best suit their needs. As a front-end developer " +
+                            "on the team, I collaborated with UX designers to build different UI components."}
                     image={bringItUp}
                     imageDescription={"bring it up UI"}
                     link={"https://github.com/bring-it-up/bring-it-up"}
@@ -24,8 +24,8 @@ export function Projects() {
                     styles={"bg-[#F6836B]"}
                     headerText={"Focus Keeper"}
                     projectDescription={"A Google Chrome extension that allows for focused study sessions " +
-                        "by starting a pomodoro timer and blocking social media sites. " +
-                        "It also has hourly and weekly views that display focus session history and statistics."}
+                        "by starting a Pomodoro timer and blocking social media sites. " +
+                        "It provides hourly and weekly views that display focus session history and statistics."}
                     image={focusKeeper}
                     imageDescription={"focus keeper UI"}
                     link={"https://github.com/mayubi7/focus_keeper"}
@@ -34,12 +34,12 @@ export function Projects() {
                     styles={"bg-blue-300"}
                     headerText={"Silver's Gym"}
                     projectDescription={"Together with two other teammates, we designed and " +
-                        "implemented a relational database for a gym and its common use cases. " +
-                        "It supports adding, updating and deleting memberships, managing class enrollments and equipment rentals."}
+                        "built a database application for a gym and its typical use cases. " +
+                        "It supports adding, updating and deleting memberships, managing class enrollments and renting out equipment."}
                     image={silverGym}
                     imageDescription={"silver gym UI"}
                     link={"https://github.com/mayubi7/silver-gym"}
-                    technologies={"pHp, Java, ?? TODO"} />
+                    technologies={"PHP"} />
                 <ProjectCard
                     styles={"bg-[#7451cb]"}
                     headerText={"Insight UBC"}
@@ -47,7 +47,7 @@ export function Projects() {
                         " This project involved building an EBNF query engine that allows list and aggregate queries on the data."}
                     image={insightUBC}
                     imageDescription={"insight ubc UI"}
-                    technologies={"TypeScript, Node, Mocha, Chai, ?? TODO"} />
+                    technologies={"TypeScript, Node.js, Mocha, Chai"} />
             </div>
         </div>
     )

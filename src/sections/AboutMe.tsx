@@ -1,12 +1,12 @@
 import React from "react";
 import computer from "../media/computer.png";
 import {CallMade} from "@mui/icons-material";
-import resume from "../media/Mariam_Ayubi_Resume.pdf";
+import resume from "../media/resume.pdf";
 import {CustomizedButton} from "../components/CustomizedButton"
 
 export function AboutMe() {
     return (
-        <div className={"flex items-center justify-between h-screen"}>
+        <div id={"about-me"} className={"flex items-center justify-between h-screen"}>
             <div className={"w-[400px]"}><img src={computer} alt={"computer"}/></div>
             <div className={"flex flex-col items-start text-left max-w-[750px] gap-y-10"}>
                 <span className={"font-bold text-[#5271FF] text-4xl"}>Passionate about life-long learning, I'm continuously searching for new problems to solve.</span>
