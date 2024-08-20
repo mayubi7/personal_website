@@ -5,7 +5,7 @@ import Education from "../components/Education";
 
 export default function Experience() {
     return (
-        <div id={"experience"} className={"flex h-screen justify-center items-center"}>
+        <div id={"experience"} className={"flex h-max justify-center items-center"}>
             <ExperienceTimeline/>
             <div className={"flex flex-col gap-y-4"}>
                 <Skills />
