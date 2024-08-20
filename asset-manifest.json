@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/personal_website/static/css/main.16f87c9c.css",
-    "main.js": "/personal_website/static/js/main.b1153a8f.js",
+    "main.css": "/personal_website/static/css/main.9a6ee732.css",
+    "main.js": "/personal_website/static/js/main.1daaf3b4.js",
     "static/js/787.71e672d5.chunk.js": "/personal_website/static/js/787.71e672d5.chunk.js",
     "static/media/silver-gym.png": "/personal_website/static/media/silver-gym.9806c7db4af081047927.png",
     "static/media/connect.png": "/personal_website/static/media/connect.e41bf4a1f17c03e31452.png",
     "static/media/focus-keeper.png": "/personal_website/static/media/focus-keeper.b0fb4968e95fa60ce52e.png",
-    "static/media/resume.pdf": "/personal_website/static/media/resume.243d30506b2e4d49bfd9.pdf",
     "static/media/coding.png": "/personal_website/static/media/coding.7fb7c6edfb6c968115ff.png",
     "static/media/insight-ubc.png": "/personal_website/static/media/insight-ubc.daa25218747cd87e0d7c.png",
+    "static/media/resume.pdf": "/personal_website/static/media/resume.81f77a9595167f5d59de.pdf",
     "static/media/bring-it-up.png": "/personal_website/static/media/bring-it-up.df06506c63b2e9503e3d.png",
     "static/media/visier-logo.jpeg": "/personal_website/static/media/visier-logo.0fb4e9a3e639221a31f7.jpeg",
     "static/media/sierra-wireless-logo.png": "/personal_website/static/media/sierra-wireless-logo.0f419c96094cb27b4901.png",
+    "static/media/aws-logo.png": "/personal_website/static/media/aws-logo.9d6f4b32839db809bf64.png",
     "static/media/computer.png": "/personal_website/static/media/computer.f15b1c274af3e659e8c5.png",
     "static/media/ubc-logo.png": "/personal_website/static/media/ubc-logo.2cbdac6e6b428c26d4ac.png",
     "index.html": "/personal_website/index.html",
-    "main.16f87c9c.css.map": "/personal_website/static/css/main.16f87c9c.css.map",
-    "main.b1153a8f.js.map": "/personal_website/static/js/main.b1153a8f.js.map",
+    "main.9a6ee732.css.map": "/personal_website/static/css/main.9a6ee732.css.map",
+    "main.1daaf3b4.js.map": "/personal_website/static/js/main.1daaf3b4.js.map",
     "787.71e672d5.chunk.js.map": "/personal_website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16f87c9c.css",
-    "static/js/main.b1153a8f.js"
+    "static/css/main.9a6ee732.css",
+    "static/js/main.1daaf3b4.js"
   ]
 }
